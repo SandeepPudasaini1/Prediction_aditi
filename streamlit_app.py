@@ -1,28 +1,52 @@
 import streamlit as st
-st.title('😃My first app - This app contains Practice and Building app')
-
-
-#the addition of sidebar changes the userphase 
-
-st_name = st.sidebar.text_input('Enter your name', 'Hello Professor')
-
-# approach 1. st.write(f'Hello {st_name}!')
-
-#approach 2
-st.write('Hello', st_name,'!')
-
-
-#Continue from Class notebook
-st.markdown("Let us create a Mathematical Application") #Markdown
-
-st.subheader("Different Lesson will be learnt")# Subheader
-
-st.caption("Lesson 1 - Displaying Text") #Caption
-
-st.code("x=2021")
-
-st.latex(r''' 
-a+a r^1+a r^2+a r^3 ''')
+st.title('This is my Homework')
+
+
+
+
+
+#the addition of sidebar changes the userphase 
+
+
+
+st_name = st.sidebar.text_input('Enter your name', 'Hello Professor')
+
+
+
+# approach 1. st.write(f'Hello {st_name}!')
+
+
+
+#approach 2
+
+
+
+
+
+
+
+#Continue from Class notebook
+
+st.markdown("Let us create a Mathematical Application") #Markdown
+
+
+
+st.subheader("Different Lesson will be learnt")# Subheader
+
+
+
+st.caption("Lesson 1 - Displaying Text") #Caption
+
+
+
+st.code("x=2021")
+
+
+
+st.latex(r''' 
+
+a+a r^1+a r^2+a r^3 ''')
+
 
 
 
@@ -167,11 +191,15 @@ st.map(df)
 
 
 #BUILDING MACHINE LEARNING APPLICATION
-st.title('📠 Build a machine learning application 🖥')
+st.title('📠 Build a machine learning application 🖥')
 
-st.subheader("PREDICTIVE MODEL")# Subheader
-
-st.caption("Random Forest Classifier") #Caption
+
+st.subheader("PREDICTIVE MODEL")# Subheader
+
+
+
+st.caption("Random Forest Classifier") #Caption
+
 
 st.caption("Step 1 - Import Necessary Libraries") #Caption
 
